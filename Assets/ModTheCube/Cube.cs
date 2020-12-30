@@ -7,7 +7,7 @@ public class Cube : MonoBehaviour
     public MeshRenderer Renderer;
     public float rotateSpeed = 10.0f;
 
-    public Material[] ColorsMaterials;
+    public Material[] colorMaterials;
 
     void Start()
     {
@@ -16,7 +16,9 @@ public class Cube : MonoBehaviour
 
         Material material = Renderer.material;
 
-        material.color = new Color(0.5f, 1.0f, 0.3f, 0.4f);
+        // get random color from list and apply it
+        material.color = colorMaterials[Random.Range(0, colorMaterials.Length)].color;
+        
     }
 
     void Update()
