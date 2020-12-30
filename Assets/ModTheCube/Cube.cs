@@ -7,6 +7,8 @@ public class Cube : MonoBehaviour
     public MeshRenderer Renderer;
     public float rotateSpeed = 10.0f;
 
+    public Material[] ColorsMaterials;
+
     void Start()
     {
         transform.position = new Vector3(1, 4, 1);
