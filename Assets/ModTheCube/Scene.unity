@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Renderer: {fileID: 187565533}
   rotateSpeed: 10
-  changeColorInterval: 2
+  changeColorInterval: 1.2
   colorMaterials:
   - {fileID: 2100000, guid: 43c77bc8732f73549bbea53d7549e5d5, type: 2}
   - {fileID: 2100000, guid: 0d24ec8821806cf4e946d4246228f4d1, type: 2}
