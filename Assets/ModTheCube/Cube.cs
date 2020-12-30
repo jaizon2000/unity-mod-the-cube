@@ -44,7 +44,7 @@ public class Cube : MonoBehaviour
         }
 
         // rotate cube
-        transform.Rotate(10.0f * Time.deltaTime * rotateSpeed, 3.0f * Time.deltaTime * rotateSpeed, 0.0f);
+        transform.Rotate(Random.Range(5f, 10.0f) * Time.deltaTime * rotateSpeed, Random.Range(2f, 3.0f) * Time.deltaTime * rotateSpeed, Random.Range(0, 0.6f));
     }
 
     /**
